@@ -1,0 +1,401 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+prueba
+</name>
+</assembly>
+<members>
+<member name="T:prueba.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:prueba.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:prueba.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.libroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.libro1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.tipo_libroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.tipo_libro1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.libroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.libro1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.tipo_libroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.tipo_libro1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet1.libroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet1.libro1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet1.tipo_libroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet1.tipo_libro1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet1TableAdapters.libroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet1TableAdapters.libro1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet1TableAdapters.tipo_libroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet1TableAdapters.tipo_libro1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prueba.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(prueba.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prueba.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(prueba.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prueba.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(prueba.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prueba.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prueba.DataSet1TableAdapters.TableAdapterManager.UpdateAll(prueba.DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prueba.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prueba.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:prueba.DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.libroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.libro1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.tipo_libroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.tipo_libro1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.libroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.libro1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.tipo_libroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.tipo_libro1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.DataSet2.libroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet2.libro1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet2.tipo_libroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet2.tipo_libro1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.DataSet2TableAdapters.libroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet2TableAdapters.libro1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet2TableAdapters.tipo_libroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet2TableAdapters.tipo_libro1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prueba.DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(prueba.DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prueba.DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(prueba.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prueba.DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(prueba.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prueba.DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prueba.DataSet2TableAdapters.TableAdapterManager.UpdateAll(prueba.DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prueba.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prueba.DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:prueba.librosDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.libroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.libro1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.tipo_libroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.tipo_libro1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.libroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.libro1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.tipo_libroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.tipo_libro1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.libroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.libro1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.tipo_libroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.librosDataSet.tipo_libro1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:prueba.librosDataSetTableAdapters.libroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.librosDataSetTableAdapters.libro1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.librosDataSetTableAdapters.tipo_libroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.librosDataSetTableAdapters.tipo_libro1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:prueba.librosDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:prueba.librosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(prueba.librosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:prueba.librosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(prueba.librosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:prueba.librosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(prueba.librosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:prueba.librosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:prueba.librosDataSetTableAdapters.TableAdapterManager.UpdateAll(prueba.librosDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:prueba.librosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:prueba.librosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
