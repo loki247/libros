@@ -4,10 +4,12 @@ Public Class Inicio
     Private Sub Inicio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim tipoLibro As TipoLibroService = New TipoLibroService()
 
-        Console.WriteLine(tipoLibro.getTiposLibro.FieldCount)
+        ComboBox1.DataSource = tipoLibro.getTiposLibro.Tables(0)
+        ComboBox1.ValueMember = "id_tipo_libro"
+        ComboBox1.DisplayMember = "desc_tipo_libro"
+    End Sub
 
-        'For i As Integer = 0 To tipoLibro.getTiposLibro.FieldCount
-        ComboBox1.Items.Add(tipoLibro.getTiposLibro.getString(0))
-        'Next
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+        Console.WriteLine(ComboBox1.SelectedValue)
     End Sub
 End Class

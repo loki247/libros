@@ -4,23 +4,19 @@
     Dim idTipoLibro As Integer
     Dim descTipoLibro As String
 
-    Public Property idTipoLibroProp As Integer
-        Get
-            Return idTipoLibro
-        End Get
+    Public Function setIdTipoLibro(idTipoLibroVal As Integer)
+        idTipoLibro = idTipoLibroVal
+    End Function
 
-        Set(ByVal value As Integer)
-            idTipoLibro = value
-        End Set
-    End Property
+    Public Function getIdTipoLibro()
+        Return idTipoLibro
+    End Function
 
-    Public Property descTipoLibroProp As Integer
-        Get
-            Return descTipoLibro
-        End Get
+    Public Function setDescTipoLibro(descTipoLibroVal As String)
+        descTipoLibro = descTipoLibroVal
+    End Function
 
-        Set(ByVal value As Integer)
-            descTipoLibro = value
-        End Set
-    End Property
+    Public Function getDescTipoLibro()
+        Return descTipoLibro
+    End Function
 End Class
