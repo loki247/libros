@@ -1,6 +1,4 @@
 ﻿Public Class TipoLibro
-    Dim table As String = "libros.tipo_libro"
-
     Dim idTipoLibro As Integer
     Dim descTipoLibro As String
 

@@ -1,0 +1,10 @@
+C:\Users\felip\source\repos\libros\bin\x64\libros\libros.exe.config
+C:\Users\felip\source\repos\libros\bin\x64\libros\libros.exe
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.vbproj.AssemblyReference.cache
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.EditarLibro.resources
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.Inicio.resources
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.Resources.resources
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.RegistrarLibro.resources
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.vbproj.GenerateResource.cache
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.vbproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\libros\obj\x64\libros\libros.exe
