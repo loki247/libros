@@ -32,6 +32,7 @@ Partial Class Inicio
         Me.RegistrarLibroToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AutoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarAutorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.resultadosLabel = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -50,7 +51,7 @@ Partial Class Inicio
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(12, 91)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(776, 347)
+        Me.DataGridView1.Size = New System.Drawing.Size(776, 319)
         Me.DataGridView1.TabIndex = 1
         '
         'ContextMenuStrip1
@@ -84,7 +85,7 @@ Partial Class Inicio
         'RegistrarLibroToolStripMenuItem1
         '
         Me.RegistrarLibroToolStripMenuItem1.Name = "RegistrarLibroToolStripMenuItem1"
-        Me.RegistrarLibroToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.RegistrarLibroToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
         Me.RegistrarLibroToolStripMenuItem1.Text = "Registrar Libro"
         '
         'AutoresToolStripMenuItem
@@ -97,14 +98,23 @@ Partial Class Inicio
         'RegistrarAutorToolStripMenuItem
         '
         Me.RegistrarAutorToolStripMenuItem.Name = "RegistrarAutorToolStripMenuItem"
-        Me.RegistrarAutorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RegistrarAutorToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
         Me.RegistrarAutorToolStripMenuItem.Text = "Registrar Autor"
+        '
+        'resultadosLabel
+        '
+        Me.resultadosLabel.Location = New System.Drawing.Point(13, 425)
+        Me.resultadosLabel.Name = "resultadosLabel"
+        Me.resultadosLabel.Size = New System.Drawing.Size(591, 16)
+        Me.resultadosLabel.TabIndex = 0
+        Me.resultadosLabel.Text = "Sin Resultados"
         '
         'Inicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.resultadosLabel)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -129,4 +139,5 @@ Partial Class Inicio
     Friend WithEvents RegistrarLibroToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents AutoresToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RegistrarAutorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents resultadosLabel As Label
 End Class

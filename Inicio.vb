@@ -46,6 +46,8 @@ Public Class Inicio
 
         DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
         DataGridView1.Columns(0).Visible = False
+
+        resultadosLabel.Text = "Se encontraron " & DataGridView1.RowCount & " resultados"
     End Function
 
     Private Sub RegistrarLibroToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles RegistrarLibroToolStripMenuItem1.Click
